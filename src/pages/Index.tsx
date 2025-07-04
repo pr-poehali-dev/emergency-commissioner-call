@@ -44,12 +44,13 @@ const Index = () => {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
               <h2 className="text-5xl font-bold text-gray-900 mb-6">
-                Экстренный вызов аварийного комиссара
+                Вызов аварийного комиссара Ставрополь
               </h2>
               <p className="text-xl text-gray-600 mb-8">
-                Выезд на место ДТП в Ставрополе за{" "}
-                <span className="text-red-600 font-bold">10 минут</span>.
-                Круглосуточно. Оформление всех документов на месте.
+                Оформление ДТП выезд за{" "}
+                <span className="text-red-600 font-bold">10 минут</span> на
+                место ДТП. Круглосуточно. Профессиональное оформление всех
+                документов.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <Button
@@ -82,10 +83,11 @@ const Index = () => {
           <Card className="shadow-lg">
             <CardHeader className="text-center">
               <CardTitle className="text-3xl font-bold text-gray-900">
-                Экстренный вызов комиссара
+                Вызов аварийного комиссара Ставрополь
               </CardTitle>
               <CardDescription className="text-lg">
-                Заполните форму и мы свяжемся с вами в течение 2 минут
+                Оформление ДТП выезд за 10 минут. Заполните форму для
+                экстренного вызова
               </CardDescription>
             </CardHeader>
             <CardContent className="space-y-6">
@@ -120,7 +122,7 @@ const Index = () => {
               </div>
               <Button className="w-full bg-red-600 hover:bg-red-700 text-white py-3">
                 <Icon name="AlertTriangle" className="mr-2 h-5 w-5" />
-                Отправить экстренный вызов
+                Вызвать комиссара в Ставрополе
               </Button>
             </CardContent>
           </Card>
@@ -132,10 +134,10 @@ const Index = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold text-gray-900 mb-4">
-              Наши услуги
+              Услуги аварийного комиссара
             </h2>
             <p className="text-xl text-gray-600">
-              Полный спектр услуг для быстрого решения проблем
+              Оформление ДТП в Ставрополе с выездом за 10 минут
             </p>
           </div>
 
@@ -161,11 +163,11 @@ const Index = () => {
                   name="Zap"
                   className="h-12 w-12 text-red-600 mx-auto mb-4"
                 />
-                <CardTitle className="text-lg">Экстренный выезд</CardTitle>
+                <CardTitle className="text-lg">Выезд за 10 минут</CardTitle>
               </CardHeader>
               <CardContent>
                 <p className="text-gray-600">
-                  Прибытие на место происшествия за 10 минут
+                  Быстрое прибытие на место ДТП за 10 минут по Ставрополю
                 </p>
               </CardContent>
             </Card>
